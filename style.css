@@ -1,0 +1,56 @@
+html {
+  font-family: sans-serif;
+}
+header {
+  height: 6.25rem;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-container {
+  width: 60%;
+}
+.search-input {
+  font-size: 1.1rem;
+  outline: none;
+  color: rgb(37, 37, 37);
+  background-color: transparent;
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 84%;
+}
+
+main {
+  height: calc(100vh - 6.25rem);
+  width: 100vw;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  position: relative;
+  color: white;
+}
+
+.temperature {
+  position: absolute;
+  top: 24px;
+  left: -60px;
+}
+
+button {
+  background-color: rgb(37, 37, 37);
+  margin-left: 2px;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
