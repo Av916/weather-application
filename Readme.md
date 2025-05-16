@@ -7,7 +7,7 @@
 
 ### Depandencies
 
-- Data source -> http://api.weatherapi.com/v1/current.json?key=d64997c5b844426e9b2200308251505&q=Motihari&aqi=yes
+- Data source -> acuweather
 
 * Flow
   - Dummy UI
