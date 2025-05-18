@@ -4,7 +4,7 @@ const searchInput = document.querySelector("input");
 
 async function fetchData(location) {
   const response =
-    await fetch(`http://api.weatherapi.com/v1/current.json?key=d64997c5b844426e9b2200308251505&q=${location}&aqi=yes
+    await fetch(`https://api.weatherapi.com/v1/current.json?key=d64997c5b844426e9b2200308251505&q=${location}&aqi=yes
 `);
   if (response.status == 400) {
     alert("Data not found");
